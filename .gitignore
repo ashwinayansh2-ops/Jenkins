@@ -1,0 +1,19 @@
+# Ignore Terraform directories in ALL subfolders
+**/.terraform/
+
+# Ignore Terraform state files in ALL subfolders
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore Terraform variable files
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore Terraform plan files
+**/*.tfplan
+**/*.plan
+
+# (Optional) Ignore lock file
+**/.terraform.lock.hcl
+
+**/*.pem
