@@ -1,19 +1,17 @@
-# Terraform state files
-*.tfstate
-*.tfstate.*
-
-# Terraform working directory
-.terraform/
+# Ignore Terraform directories in ALL subfolders
 **/.terraform/
-.terraform 
 
-# Terraform lock file (optional)
- .terraform.lock.hcl
+# Ignore Terraform state files in ALL subfolders
+**/*.tfstate
+**/*.tfstate.*
 
-# Terraform variable files (often contain secrets)
-*.tfvars
-*.tfvars.json
+# Ignore Terraform variable files
+**/*.tfvars
+**/*.tfvars.json
 
-# Terraform plan files
-*.tfplan
-*.plan
+# Ignore Terraform plan files
+**/*.tfplan
+**/*.plan
+
+# (Optional) Ignore lock file
+**/.terraform.lock.hcl
